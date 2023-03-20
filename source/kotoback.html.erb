@@ -5,6 +5,9 @@ description: Turn epub ebook into flashcards before you read!
 url: /kotoback.html
 ---
 <div class="container mt-3 d-flex flex-column align-items-center justify-content-center">
+  <div>
+    <h1>Kotoback</h1>
+  </div>
   <div class="row mt-3">
     <div class="col-md-12 col-lg-6 col-sm-12">
       <%= image_tag("/images/kotoback/trimmed_language_select.gif", alt: "gif of language select and epub upload", class: "img-fluid explanation-image")%>
@@ -27,26 +30,27 @@ url: /kotoback.html
     <div class="col-md-12 col-lg-6 col-sm-12">
       <%= image_tag("/images/kotoback/flashcards_english_to_japanese.gif", alt: "study session of english to japanese flashcards", class: "img-fluid explanation-image")%>
     </div>
-    <div class="col-md-12 col-lg-6 col-sm-12 d-flex align-items-center justify-content-center flex-column w-100" style="max-width: 600px">
+    <div class="col-md-12 col-lg-6 col-sm-12 d-flex align-items-center justify-content-center flex-column w-100 js-scroll" style="max-width: 600px">
       <h3>Step Three:</h3>
       <p>Here you can study! Click on the book and it will take you to the study page, where you can study flashcards of the less common words in the book. If your epub book was properly formatted, then it'll be divided into different sections called "chapters" with up to 50 of the most common rare words in that chapter. No repeat words in later chapters, however, so if a word came up in chapter one it won't come up in chapter two</p>
     </div>
   </div>
   <div class="row mt-3 ">
-    <div class="col-md-12 col-lg-6 col-sm-12">
+    <div class="col-md-12 col-lg-6 col-sm-12 js-scroll">
       <%= image_tag("/images/kotoback/flashcards_japanese_to_english.gif", alt: "study session of english to japanese flashcards", class: "img-fluid explanation-image")%>
     </div>
-    <div class="col-md-12 col-lg-6 col-sm-12 d-flex align-items-center justify-content-center flex-column w-100" style="max-width: 600px">
+    <div class="col-md-12 col-lg-6 col-sm-12 d-flex align-items-center justify-content-center flex-column w-100 js-scroll" style="max-width: 600px">
       <p>Here's an example of the other book you might have noticed in "My Books", こころ, kokoro</p>
     </div>
   </div>
   <div class="row mt-3 ">
-    <div class="col-md-12 col-lg-6 col-sm-12">
+    <div class="col-md-12 col-lg-6 col-sm-12 js-scroll">
       <%= image_tag("/images/kotoback/book_show.png", alt: "card managing page", class: "img-fluid explanation-image")%>
     </div>
-    <div class="col-md-12 col-lg-6 col-sm-12 d-flex align-items-center justify-content-center flex-column w-100" style="max-width: 600px">
+    <div class="col-md-12 col-lg-6 col-sm-12 d-flex align-items-center justify-content-center flex-column w-100 js-scroll" style="max-width: 600px">
       <h3>Managing Cards</h3>
       <p>When you need to edit the deck, whether that be add a new card, delete one you've mastered, or just check out all the cards in a given chapter, you can click "see your cards" to see all the cards in a book!</p>
     </div>
   </div>
 </div>
+<script src="javascripts/opacity.js"></script>
