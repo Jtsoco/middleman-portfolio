@@ -2,7 +2,8 @@ const scrollElements = document.querySelectorAll(".js-scroll");
 console.log(scrollElements);
 scrollElements.forEach((el) => {
   console.log('hi');
-  el.style.opacity ="0"
+  el.style.opacity ="0";
+  el.classList.add("run-left")
 });
 console.log('hi')
 const elementInView = (el, percentageScroll = 90) => {
@@ -15,6 +16,7 @@ const elementInView = (el, percentageScroll = 90) => {
 const displayScrollElement = (element) => {
   element.classList.add("scrolled");
   element.style.opacity ="1";
+  element.classList.remove("run-left")
 };
 
 const hideScrollElement = (element) => {
