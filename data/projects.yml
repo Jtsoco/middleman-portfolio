@@ -7,12 +7,12 @@
 
 - name: judge by cover
   description: Judge a book by its cover in this react app
-  image: projects/placeholder.png
+  image: judge_book/judge_book.png
   url: https://jtsoco.github.io/judge-by-cover/
   className: judge
 
 - name: Kotoback
   description: Turn epub ebook into flashcards before you read!
-  image: kotoback/card_front.png
+  image: kotoback/flashcards_japanese_to_english.gif
   url: /kotoback.html
   className: koto
