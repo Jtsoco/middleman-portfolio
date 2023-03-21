@@ -1,19 +1,18 @@
-- name: Longest Word Game
-  description: Decent description of the app
-  image: projects/placeholder.png
-  url: https://www.google.com
 
 - name: Movie Watchlist
   description: Decent description of the app
   image: projects/placeholder.png
   url: https://www.google.com
+  className: movie
 
-- name: Airbnb
-  description: Decent description of the app
+- name: judge by cover
+  description: Judge a book by its cover in this react app
   image: projects/placeholder.png
-  url: https://www.google.com
+  url: https://jtsoco.github.io/judge-by-cover/
+  className: judge
 
 - name: Kotoback
   description: Turn epub ebook into flashcards before you read!
   image: kotoback/card_front.png
   url: /kotoback.html
+  className: koto
