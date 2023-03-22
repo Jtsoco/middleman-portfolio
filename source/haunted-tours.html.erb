@@ -1,0 +1,77 @@
+---
+title: Haunted Tours
+name: Haunted Tours
+description: Book a spooky experience in this airbnb clone!
+url: /haunted-tours.html
+---
+<div class="container mt-3 d-flex flex-column align-items-center justify-content-center">
+  <div>
+    <h1>Haunted Tours</h1>
+  </div>
+  <div id="carouselExampleControls" class="carousel slide" data-interval="false" data-ride="carousel">
+    <div class="carousel-inner" style="width:1200px">
+      <div class="carousel-item active">
+        <div class="d-flex flex-row">
+          <div class="">
+            <%= image_tag("/images/haunted-tours/haunted-home.png", alt: "haunted-tours homepage", class: "explanation-image")%>
+          </div>
+          <div class=" d-flex align-items-center justify-content-center flex-column w-100 p-2" style="max-width: 600px">
+            <h3>Step one:</h3>
+            <p>Welcome to the fright of your life at Haunted Tours! This app is an airbnb clone, where you can go on frightful overnight tours of spooky locations, and even host your own!</p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="d-flex flex-row">
+          <div class="">
+            <%= image_tag("/images/haunted-tours/tour-index.gif", alt: "index page for all tours", class: "img-fluid explanation-image")%>
+          </div>
+          <div class=" d-flex justify-content-center align-items-center flex-column w-100 p-2" style="max-width: 600px">
+            <h3>Step Two:</h3>
+            <p>Once you're redirected to the "My Books" page you're free to go do other things as you wait! Depending on the size of the book and the origin language it might take a little bit of time to process. Come back in a minute or two and it should be ready. No worries about keeping the browser open as you go do something else, though, as you can close it and the process will run asynchronously! No need to stick around.</p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="d-flex flex-row">
+          <div class="">
+            <%= image_tag("/images/haunted-tours/show-page.gif", alt: "showing a single tour's page", class: "img-fluid explanation-image")%>
+          </div>
+          <div class=" d-flex align-items-center justify-content-center flex-column w-100 p-2" style="max-width: 600px">
+            <h3>Step Three:</h3>
+            <p>Here you can study! Click on the book and it will take you to the study page, where you can study flashcards of the less common words in the book. If your epub book was properly formatted, then it'll be divided into different sections called "chapters" with up to 50 of the most common rare words in that chapter. No repeat words in later chapters, however, so if a word came up in chapter one it won't come up in chapter two</p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="d-flex flex-row">
+          <div class="">
+            <%= image_tag("/images/haunted-tours/my-tours.gif", alt: "managing your tours", class: "img-fluid explanation-image")%>
+          </div>
+          <div class=" d-flex align-items-center justify-content-center flex-column w-100 p-2" style="max-width: 600px">
+            <p>Here's an example of the other book you might have noticed in "My Books", こころ, kokoro</p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="d-flex flex-row">
+          <div class="">
+            <%= image_tag("/images/haunted-tours/new-tour-page.png", alt: "page for a new tour", class: "img-fluid explanation-image")%>
+          </div>
+          <div class=" d-flex align-items-center justify-content-center flex-column w-100 p-2" style="max-width: 600px">
+            <h3>Managing Cards</h3>
+            <p>When you need to edit the deck, whether that be add a new card, delete one you've mastered, or just check out all the cards in a given chapter, you can click "see your cards" to see all the cards in a book!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>

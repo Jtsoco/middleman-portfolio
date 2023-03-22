@@ -1,9 +1,9 @@
 
-- name: Movie Watchlist
-  description: Decent description of the app
-  image: projects/placeholder.png
-  url: https://www.google.com
-  className: movie
+- name: Haunted Tours
+  description: Book a spooky experience in this Airbnb clone!
+  image: haunted_tours/haunted-home.png
+  url: /haunted-tours.html
+  className: haunted
 
 - name: judge by cover
   description: Judge a book by its cover in this react app
