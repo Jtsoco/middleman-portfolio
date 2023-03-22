@@ -1,7 +1,7 @@
 
 - name: Haunted Tours
   description: Book a spooky experience in this Airbnb clone!
-  image: haunted_tours/haunted-home.png
+  image: haunted-tours/haunted-home.png
   url: /haunted-tours.html
   className: haunted
 

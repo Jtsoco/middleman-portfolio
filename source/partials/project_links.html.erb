@@ -1,0 +1,18 @@
+<div class="d-flex mt-3 mb-1" >
+  <div class="button-social d-flex flex-column justify-content-center align-items-center">
+    <i class="fa-solid fa-house fa-2x"></i>
+    <%= link_to "", "/", class: 'button-social-link' %>
+  </div>
+  <% if current_page.data.github %>
+    <div class="button-social d-flex flex-column justify-content-center align-items-center">
+      <i class="fa-brands fa-github fa-2x"></i>
+      <%= link_to "", "#{current_page.data.github}", target: '_blank', class: 'button-social-link' %>
+    </div>
+  <% end %>
+  <% if current_page.data.website %>
+    <div class="button-social d-flex flex-column justify-content-center align-items-center">
+      <i class="fa-solid fa-globe fa-2x"></i>
+      <%= link_to "", "#{current_page.data.website}", target: '_blank', class: 'button-social-link' %>
+    </div>
+  <% end %>
+</div>
