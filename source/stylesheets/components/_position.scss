@@ -14,3 +14,26 @@
 .projects-container {
   min-height: 300px;
 }
+
+.carousel-adjustment {
+  max-width: 1200px;
+}
+
+@media (max-width: 1200px) {
+  .carousel-inner-adjustment {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width: 500px) {
+  .inner-item-adjustment {
+    max-width: 400px;
+    object-fit: contain;
+  }
+}
+@media (min-width: 100px) and (max-width: 400px) {
+  .inner-item-adjustment {
+    max-width: 300px;
+    object-fit: contain;
+  }
+}
