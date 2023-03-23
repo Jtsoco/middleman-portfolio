@@ -16,7 +16,7 @@
 
 @media (min-width: 576px) {
   .display-project {
-    max-width: 300px;
+    max-width: 400px;
     object-fit: contain;
   }
 }
@@ -25,4 +25,8 @@
   .display-project {
     max-width: 600px;
   }
+}
+
+.project-visible {
+  opacity: 1;
 }

@@ -1,6 +1,9 @@
 const projectElements = document.querySelectorAll(".card-transition");
 // const cover = document.querySelector(".my-project-cover");
 let i = 1
+const opacityChange = (target, number) => {
+  target.style.opacity = `${number}`
+};
 projectElements.forEach((el) => {
 el.setAttribute(`id`,`project-${i}`);
 i ++
@@ -10,12 +13,11 @@ const projectImages = document.querySelectorAll(".display-project");
 projectImages.forEach((el) => {
   el.setAttribute(`id`,`project-display-${i}`);
   console.log(el.id.charAt(el.id.length - 1));
-  el.style.opacity = "0";
+  opacityChange(el, "0");
   i ++;
   });
   i = 1;
-
-
+opacityChange(projectImages[0], "1")
 // const revealElements = () => {
 
 //   projectElements.forEach((el) => {
@@ -23,15 +25,24 @@ projectImages.forEach((el) => {
 //   });
 // }
 projectElements.forEach((el) => {
+  const numb = el.id.charAt(el.id.length - 1);
+  console.log(numb)
+  const image = document.querySelector(`#project-display-${numb}`);
+  // this is for desktop
   el.addEventListener("mouseover", function() {
-    const numb = el.id.charAt(el.id.length - 1);
-    const image = document.querySelector(`#project-display-${numb}`);
+    projectImages.forEach((element => {
+      element.style.opacity = "0"
+    }));
     image.style.opacity = "1";
   });
-  el.addEventListener("mouseout", function() {
-    const numb = el.id.charAt(el.id.length - 1);
-    const image = document.querySelector(`#project-display-${numb}`);
-    image.style.opacity = "0";
-  });
+
+  // This is for mobile
+  el.addEventListener("click", function() {
+    console.log('hello there')
+    projectImages.forEach((element => {
+      element.classList.remove(".project-visible")
+    }));
+    image.classList.toggle(".project-visible")
+  } );
 
 });
