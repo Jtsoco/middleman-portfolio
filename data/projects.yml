@@ -1,10 +1,5 @@
 
-- name: Haunted Tours
-  description: Book a spooky experience in this Airbnb clone!
-  image: haunted-tours/haunted-home.png
-  url: /haunted-tours.html
-  className: haunted
-  thumbnail: haunted-tours/haunted-home-thumbnail.png
+
 - name: judge by cover
   description: Judge a book by its cover in this react app
   image: judge_book/judge_book.png
@@ -12,9 +7,24 @@
   className: judge
   thumbnail: judge_book/judge_book_thumbnail.png
 
+
 - name: Kotoback
   description: Turn epub ebook into flashcards before you read!
   image: kotoback/flashcards_japanese_to_english.gif
   url: /kotoback.html
   className: koto
   thumbnail: kotoback/flashcards_japanese_to_english_thumbnail.gif
+
+- name: Simple JMDict API
+  description: An api built using jmdict, with a simple front-end too.
+  image: jmdict_api/api_key_gif_two.gif
+  url: /jmdictApi.html
+  className: dictionary
+  thumbnail: jmdict_api/api_key_thumbnail_pic.jpg
+
+- name: Haunted Tours
+  description: Book a spooky experience in this Airbnb clone!
+  image: haunted-tours/haunted-home.png
+  url: /haunted-tours.html
+  className: haunted
+  thumbnail: haunted-tours/haunted-home-thumbnail.png
