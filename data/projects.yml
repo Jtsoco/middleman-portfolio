@@ -18,7 +18,7 @@
 - name: Simple JMDict API
   description: An api built using jmdict, with a simple front-end too.
   image: jmdict_api/api_key_gif_two.gif
-  url: /JmdictApi
+  url: /jmdictApi.html
   className: dictionary
   thumbnail: jmdict_api/api_key_thumbnail_pic.jpg
 
