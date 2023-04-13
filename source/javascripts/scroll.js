@@ -4,8 +4,8 @@ sectionElements[0].classList.add("current-page");
 let scrollY = 0;
 sectionElements.forEach((element) => {
   console.log('add')
-  element.addEventListener("scroll", function(event) {
+  element.addEventListener("wheel", function(event) {
 console.log(event);
-console.log('hi')
-  })
+console.log('hi');
+  });
 })
