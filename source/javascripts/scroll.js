@@ -1,4 +1,15 @@
 
+const navbar = document.querySelector(".sidenav")
+let oldScrollY = 0;
+window.onscroll = function(e) {
+  console.log(oldScrollY)
+  if (oldScrollY < window.scrollY) {
+    navbar.classList.add("slide-off")
+  } else if (oldScrollY > window.scrollY) {
+    navbar.classList.remove("slide-off")
+  }
+  oldScrollY = window.scrollY
+}
   function smoothScroll(el){
     console.log(el);
     el.scrollIntoView(true);
