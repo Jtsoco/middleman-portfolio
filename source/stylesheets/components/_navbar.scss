@@ -16,9 +16,13 @@
 .sidenav {
   position: fixed; /* Fixed Sidebar (stay in place on scroll) */
   z-index: 1; /* Stay on top */
-  top: 24px; /* Stay at the top */
+  top: 0; /* Stay at the top */
   left: 8px;
   overflow-x: hidden; /* Disable horizontal scroll */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100%;
 }
 
 /* The navigation menu links */
@@ -57,5 +61,13 @@
 
 .hidden-text {
   opacity: 0;
+  margin-left: 8px;
   transition: .5s;
+}
+
+.section{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
