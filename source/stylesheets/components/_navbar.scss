@@ -17,10 +17,7 @@
   position: fixed; /* Fixed Sidebar (stay in place on scroll) */
   z-index: 1; /* Stay on top */
   top: 0; /* Stay at the top */
-  left: 8px;
   overflow-x: hidden; /* Disable horizontal scroll */
-  display: flex;
-  justify-content: space-around;
   width: 100%;
   transition: .5s;
 }
